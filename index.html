@@ -50,13 +50,65 @@ DOCTYPE html>
                     <input type="color" id="cor">
                 </div>
 
-                <div>
+                <div class="checkbox-container">
                     <h2>Escolha seus estilos musicais preferidos: </h2>
 
                     <div>
                         <input type="checkbox" id="funk">
                         <label for="funk">Funk</label>
                     </div>
+                    <div>
+                        <input type="checkbox" id="sertanejo">
+                        <label for="sertanejo">Sertanejo</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="rap">
+                        <label for="rap">Rap</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="jazz">
+                        <label for="jazz">Jazz8</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="outros">
+                        <label for="outros">Outros</label>
+                    </div>
+                </div>
+
+                <div class="radio-container">
+                        <h2>Você prefere doce, salgado ou ambos?</h2>
+
+                        <div>
+                            <input type="radio" id="doce" name="gosto">
+                            <label for="doce">Doce</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="salgado" name="gosto">
+                            <label for="salgado">Salgado</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="ambos" name="gosto">
+                            <label for="ambos">Ambos</label>
+                        </div>
+                </div>
+
+                <div>
+                    <label for="tamanho">Selecione seu tamanho de camiseta:</label>
+                    <select name="tamanho" id="tamanho">
+                        <option value="PP">PP</option>
+                        <option value="P">P</option>
+                        <option value="M">M</option>
+                        <option value="G">G</option>
+                        <option value="GG">GG</option>
+                        <option value="XG">XG</option>
+                        <option value="XGG">XGG</option>
+                        <option value="EXG">EXG</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="">Faça uma breve descrição sobre você:</label>
+                    <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Digite aqui a descrição..."></textarea>
                 </div>
             </fieldset>
 
