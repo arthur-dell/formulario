@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: oklch(20.8% 0.042 265.755);
+    color: #FFF;
+}
+
+#page {
+    max-width: 120rem;
+    margin-inline: auto;
+}
+
+header{
+    padding-block: 2rem;
+    text-align: center;
+}
+
+fieldset{
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+}
+
